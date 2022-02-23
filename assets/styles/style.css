@@ -97,11 +97,12 @@
   margin-right: 5vw;
 }
 
-/* MAIN ABOUT ME */
-.about-me{
+.sub-container{
   display: flex;
+  margin-bottom: 3vh;
 }
 
+/* MAIN -ABOUT ME- */
 .main-titles{
   font-size: 3rem;
   text-align: right;
@@ -121,4 +122,36 @@
   border-left: var(--fourth-color) solid 3px;
   padding-left: 1vw;
 }
-/* MAIN WORK */
+/* MAIN -WORK- */
+.wrapper{
+  display: grid;
+  grid-template-columns: repeat(2, 30vw);
+  gap: 1vw;
+  border-left: var(--fourth-color) solid 3px;
+  padding-left: 1vw;
+}
+
+.item{
+  background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+  height : 30vh;
+  position: relative;
+  border: var(--third-color) solid 3px;
+}
+
+.item1{
+  grid-column: 1/3;
+  height: 35vh;
+}
+
+.sub-tag{
+  position: absolute;
+  top: 75%;
+  padding: .5vh 1vw;
+  background-color: var(--third-color);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: var(--fourth-color);
+}
+
+.sub-tag h4{
+  font-size: 1.3rem;
+}
