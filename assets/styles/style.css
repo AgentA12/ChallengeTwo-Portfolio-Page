@@ -102,6 +102,13 @@
   margin-bottom: 3vh;
 }
 
+.subcontaineritem1{
+width: 20%;
+}
+
+.subcontaineritem2{
+  
+}
 /* MAIN -ABOUT ME- */
 .main-titles{
   font-size: 3rem;
@@ -154,4 +161,24 @@
 
 .sub-tag h4{
   font-size: 1.3rem;
+}
+
+/* MAIN -CONTACT- */
+.contact-links-list{
+  border-left: var(--fourth-color) solid 3px;
+  padding-left: 1vw;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.contact-links a{
+  text-decoration: none;
+  color: var(--fourth-color);
+  font-size: 1.3rem;
+  padding: 5px;
+  margin: 1vh 2.6vw;
+  border-bottom: var(--fourth-color) solid 3px;
+  text-transform: capitalize;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
