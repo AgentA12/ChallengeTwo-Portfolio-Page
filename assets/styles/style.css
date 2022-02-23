@@ -69,3 +69,20 @@
             border-color: var(--second-color);
         }
     }
+
+/* HERO IMAGE STYLES */
+.hero-img{
+    background-image: url(/assets/imgs/keyboard-HERO.jpg);
+    height: 32vh;
+}
+
+.sub-title-tag{
+    position: absolute;
+    font-size: 1.8rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding:  .4rem 1rem;
+    right: 10vw;
+    top: 35vh;
+    color: var(--first-color);
+    background-color: var(--third-color);
+}
