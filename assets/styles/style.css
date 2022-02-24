@@ -95,19 +95,25 @@
   margin: 5vh auto;
   margin-left: 25vw;
   margin-right: 5vw;
+  position: relative;
 }
 
-.sub-container{
+.sub-container1{
+  display: flex;
+  margin-bottom: 3vh;
+  position: relative;
+  right: .48vw;
+}
+
+.sub-container2{
   display: flex;
   margin-bottom: 3vh;
 }
-
-.subcontaineritem1{
-width: 20%;
-}
-
-.subcontaineritem2{
-  
+.sub-container3{
+  display: flex;
+  margin-bottom: 3vh;
+  position: relative;
+  right: 2.66vw;
 }
 /* MAIN -ABOUT ME- */
 .main-titles{
