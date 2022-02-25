@@ -97,19 +97,22 @@ body{
     flex-direction: column;
     gap: 5vh;
     justify-content: center;
-    margin: 5vh;
+    margin: 5vh auto;
+    align-items: flex-end;
   }
 
   .inner-container{
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    width: 90%;
+    flex: 0 1 90%;
   }
 
   .main-content{
     padding-left: 3vw;
     border-left: var(--fourth-color) solid 2px;
-    flex-basis: 70%;
+    flex: 0 0 70%;
   }
 
 /* MAIN TITLES */
@@ -139,26 +142,41 @@ body{
 
 .wrapper{
   display: grid;
-  grid-template-columns: repeat(auto-fit,2, 25vw);
+  grid-template-columns: repeat(2, 27vw);
   gap: 1vw;
-  padding-left: 1vw;
 }
 
 .item{
-  background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
-  height : 20vh;
+  height : 30vh;
   position: relative;
   border: var(--third-color) solid 5px;
+  text-decoration: none;
 }
 
 .item1{
   grid-column: 1/3;
-  height: 30vh;
+  height: 45vh;
+  background-image: url(/assets/imgs/runbuddy-screen-shot.png);
+  background-size:cover;
+}
+
+.item2{
+  background-image: url(/assets/imgs/wordlog-image.jpg);
+}
+
+.item-placeholder{
+  background-image: url(/assets/imgs/placeholder.png);
+  background-size: contain;
+}
+
+.hover-imgs:hover{
+  opacity: .7;
 }
 
 .sub-tag{
   position: relative;
-  top: 75%;
+  top: 80%;
+  left: 0%;
   width: fit-content;
   padding: .5vh 1vw;
   background-color: var(--third-color);
@@ -187,7 +205,7 @@ body{
   display: flex;
   align-items: center;
   padding: 2.5vh 0;
-  gap: 6vw;
+  gap: 2.7vw;
 }
 
 .contact-links a{
