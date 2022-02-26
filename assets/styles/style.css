@@ -33,6 +33,7 @@ body{
   font-family: Georgia, "Times New Roman", Times, serif;
   margin: 1vh 0;
   border-radius: 0 50% 50% 0;
+  display: flex;
 }
 
 .nav-container {
@@ -77,6 +78,9 @@ body{
 /* HERO IMAGE STYLES */
 .hero-img{
     background-image: url(/assets/imgs/keyboard-HERO.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 32vh;
 }
 
@@ -98,6 +102,7 @@ body{
     gap: 5vh;
     justify-content: center;
     margin-top: 5vh;
+    align-content: flex-end;
   }
 
   .inner-container{
@@ -115,7 +120,7 @@ body{
 /* MAIN TITLES */
 .main-titles{
   font-size: 3rem;
-  text-align: end;
+  text-align: right;
   color: var(--fourth-color);
   padding-right: .8vw;
   padding-bottom: 2.5vh;
