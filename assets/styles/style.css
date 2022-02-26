@@ -92,8 +92,8 @@ body {
   font-size: 1.8rem;
   font-family: var(--font-stack);
   padding: 0.4rem 1rem;
-  right: 10vw;
-  top: 35vh;
+  right: 10%;
+  top: 35%;
   color: var(--first-color);
   background-color: var(--third-color);
 }
@@ -314,9 +314,22 @@ body {
 
 @media screen and (max-width: 580px){
   /* HEADER STYLES */
-  
-
-
+  .head{
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 37vh;
+  }
   /* HERO IMAGE STYLES */
+  .nav-container ul{
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .sub-title-tag{
+    font-size: 1em;
+    top: 60%;
+    right: 10%;    
+  }
 
 }
