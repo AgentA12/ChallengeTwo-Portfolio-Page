@@ -97,22 +97,19 @@ body{
     flex-direction: column;
     gap: 5vh;
     justify-content: center;
-    margin: 5vh auto;
-    align-items: flex-end;
+    margin-top: 5vh;
   }
 
   .inner-container{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 90%;
-    flex: 0 1 90%;
   }
 
   .main-content{
     padding-left: 3vw;
     border-left: var(--fourth-color) solid 2px;
-    flex: 0 0 70%;
+    flex: 0 1 60%;
   }
 
 /* MAIN TITLES */
@@ -124,7 +121,7 @@ body{
   padding-bottom: 2.5vh;
   font-family: Georgia, 'Times New Roman', Times, serif;
   align-self: flex-start;
-  flex-basis: 15%;
+  flex-basis: 20%;
 }
 
 .main-titles h3{
@@ -200,12 +197,13 @@ body{
 
 /* CONTACT STYLES */
 .contact-links-list{
-  padding-left: 1vw;
   list-style: none;
   display: flex;
   align-items: center;
   padding: 2.5vh 0;
-  gap: 2.7vw;
+  gap: 4vw;
+  flex-wrap: wrap;
+  justify-content: flex-start;
 }
 
 .contact-links a{
@@ -214,6 +212,7 @@ body{
   font-size: 1.5rem;
   text-transform: capitalize;
   border-bottom: var(--fourth-color) solid 2px;
+  flex-shrink: 1;
 }
 
 .contact-links a:hover{
