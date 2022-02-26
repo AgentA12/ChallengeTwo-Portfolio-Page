@@ -239,75 +239,84 @@ body {
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 1135px){
-  /* HEADER STYLES */
-  .head{
+    /* HEADER STYLES */
+    .head{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 25vh;
+      gap: 2vh;
+    }
+
+    .main-title-container{
+      border-radius: 5px;
+    }
+
+    .nav-container ul{
+      margin: 0;
+    }
+
+    /* HERO IMAGE STYLES */
+    .sub-title-tag{
+      top: 45vh;
+    }
+
+    /* MAIN CONTAINER/INNER CONTAINER AND CHILD POSITIONING */
+  .main-container {
+    display: flex;
     flex-direction: column;
+    gap: 1vh;
     justify-content: center;
+    margin-top: 5vh;
+    align-content: center;
+    text-align: center;
+  }
+
+  .inner-container {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    height: 25vh;
-    gap: 2vh;
+    justify-content: center;
+    margin-bottom: 2vh;
+    align-self: auto;
   }
 
-  .main-title-container{
-    border-radius: 5px;
+  .main-content {
+    border: solid 0px;
+    border-top: var(--fourth-color) solid 3px;
+    flex: 0 1 60%;
+    margin: 2vh 5vw;
+    padding: 1vh;
   }
 
-  .nav-container ul{
-    margin: 0;
+  /* MAIN TITLES */
+  .main-titles {
+    font-size: 3rem;
+    color: var(--fourth-color);
+    padding-right: 0.8vw;
+    padding-bottom: 2.5vh;
+    font-family: var(--font-stack);
+    align-self: auto;
   }
+
+  .main-titles h3{
+    text-align: center;
+  }
+
+  /* WORK STYLES */
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 45vw);
+    gap: 2vw;
+  }
+
+}
+
+@media screen and (max-width: 580px){
+  /* HEADER STYLES */
+  
+
 
   /* HERO IMAGE STYLES */
-  .sub-title-tag{
-    top: 45vh;
-  }
-
-  /* MAIN CONTAINER/INNER CONTAINER AND CHILD POSITIONING */
-.main-container {
-  display: flex;
-  flex-direction: column;
-  gap: 1vh;
-  justify-content: center;
-  margin-top: 5vh;
-  align-content: center;
-  text-align: center;
-}
-
-.inner-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 2vh;
-  align-self: auto;
-}
-
-.main-content {
-  border: solid 0px;
-  border-top: var(--fourth-color) solid 3px;
-  flex: 0 1 60%;
-  margin: 2vh 5vw;
-  padding: 1vh;
-}
-
-/* MAIN TITLES */
-.main-titles {
-  font-size: 3rem;
-  color: var(--fourth-color);
-  padding-right: 0.8vw;
-  padding-bottom: 2.5vh;
-  font-family: var(--font-stack);
-  align-self: auto;
-}
-
-.main-titles h3{
-  text-align: center;
-}
-
-/* WORK STYLES */
-.wrapper {
-  display: grid;
-  grid-template-columns: repeat(2, 45vw);
-  gap: 2vw;
-}
 
 }
