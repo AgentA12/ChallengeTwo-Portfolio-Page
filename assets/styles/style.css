@@ -80,7 +80,7 @@ body {
 
 /* HERO IMAGE STYLES */
 .hero-img {
-  background-image: url(/assets/imgs/keyboard-HERO.jpg);
+  background-image: url(assets/imgs/keyboard-HERO.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -163,42 +163,42 @@ body {
 .item1 {
   grid-column: 1/3;
   height: 45vh;
-  background-image: url(/assets/imgs/runbuddy-screen-shot.png);
+  background-image: url(assets/imgs/runbuddy-screen-shot.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .item2 {
-  background-image: url(/assets/imgs/wordlog-image.jpg);
+  background-image: url(assets/imgs/wordlog-image.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .item3{
-  background-image: url(/assets/imgs/graph.jpg);
+  background-image: url(assets/imgs/graph.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .item4{
-  background-image: url(/assets/imgs/chatting.jpg);
+  background-image: url(assets/imgs/chatting.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .item5{
-  background-image: url(/assets/imgs/quiz.jpg);
+  background-image: url(assets/imgs/quiz.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .item-placeholder {
-  background-image: url(/assets/imgs/graph.jpg);
+  background-image: url(assets/imgs/graph.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
