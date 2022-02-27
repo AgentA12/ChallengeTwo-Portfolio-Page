@@ -265,8 +265,10 @@ body {
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      height: 25vh;
       gap: 2vh;
+      flex-wrap: wrap;
+      height: 25vh;
+      flex-shrink: 1;
     }
 
     .main-title-container{
@@ -340,15 +342,15 @@ body {
     flex-wrap: nowrap;
     height: 40vh;
   }
-  /* HERO IMAGE STYLES */
+ 
   .nav-container ul{
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
   }
-
+   /* HERO IMAGE STYLES */
   .sub-title-tag{
-    font-size: 1em;
+    font-size: 1.3em;
     top: 60%;
     right: 10%;    
   }
