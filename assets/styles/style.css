@@ -176,8 +176,29 @@ body {
   background-size: cover;
 }
 
+.item3{
+  background-image: url(/assets/imgs/graph.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.item4{
+  background-image: url(/assets/imgs/chatting.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.item5{
+  background-image: url(/assets/imgs/quiz.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .item-placeholder {
-  background-image: url(/assets/imgs/placeholder.png);
+  background-image: url(/assets/imgs/graph.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -317,7 +338,7 @@ body {
   .head{
     flex-direction: column;
     flex-wrap: nowrap;
-    height: 37vh;
+    height: 40vh;
   }
   /* HERO IMAGE STYLES */
   .nav-container ul{
