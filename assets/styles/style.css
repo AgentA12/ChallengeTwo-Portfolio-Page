@@ -85,8 +85,8 @@ body {
 /* HERO IMAGE STYLES */
 .hero-img {
   height: 32vh;
-  background-image: url(/imgs/keyboard-HERO.jpg);
-  background-position: center center;
+  background-image: url(../imgs/keyboard-HERO.jpg);
+  background-position:  center;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -178,23 +178,23 @@ body {
 .item1 {
   grid-column: 1/3;
   height: 45vh;
-  background-image: url(imgs/runbuddy-screen-shot.png);
+  background-image: url(../imgs/runbuddy-screen-shot.png);
 }
 
 .item2 {
-  background-image: url(imgs/wordlog-image.jpg);
+  background-image: url(../imgs/wordlog-image.jpg);
 }
 
 .item3 {
-  background-image: url(imgs/graph.jpg);
+  background-image: url(../imgs/graph.jpg);
 }
 
 .item4 {
-  background-image: url(imgs/chatting.jpg);
+  background-image: url(../imgs/chatting.jpg);
 }
 
 .item5 {
-  background-image: url(imgs/quiz.jpg);
+  background-image: url(../imgs/quiz.jpg);
 }
 
 .hover-imgs:hover {
